@@ -1,0 +1,28 @@
+.fetch-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    .fetch-button, .clear-button {
+        width: 200px;
+        margin: 20px;
+        height: 50px;
+        font-size: 24px;
+        background-color: black;
+        color:white;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+
+    .computer-info {
+        font-size: 20px;
+        font-weight: bolder;
+
+        div {
+            padding: 10px;
+        }
+    }
+}
